@@ -6,8 +6,7 @@
 trigger:
 - azure-pipelines
 
-pool:
-  name: MyBuildAgents
+pool: MyBuildAgents
 
 steps:
 - task: Maven@3
