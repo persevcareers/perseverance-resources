@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  name: MyBuildAgents
 
 steps:
 - task: Maven@3
