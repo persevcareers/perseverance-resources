@@ -5,11 +5,11 @@ pool:
   name: build-env-servers
 
 stages:
-- checkout: self
 - stage: Build
   jobs:
   - job: BuildJob
     steps:
+    - checkout: self
     - task: Maven@3
       inputs:
         mavenPomFile: 'pom.xml'
@@ -27,7 +27,7 @@ stages:
         TargetFolder: '$(Build.ArtifactStagingDirectory)'
 
 - stage: PublishArtifacts
-  dependsOn: PrintArtifactDir
+  dependsOn: CopyFiles
   jobs:
   - job: PublishArtifactsJob
     steps:
