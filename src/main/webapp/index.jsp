@@ -41,7 +41,7 @@
         <div class="max-w-7xl mx-auto text-center">
             <span class="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest uppercase bg-blue-50 text-azure rounded-full">New Era of Engineering</span>
             <h1 class="text-6xl md:text-8xl font-extrabold leading-none mb-8 tracking-tighter">
-                Start  Your <br> <span class="gradient-text">Engineering Journey.</span>
+                Boost  Your <br> <span class="gradient-text">Engineering Journey.</span>
             </h1>
             <p class="max-w-2xl mx-auto text-lg text-slate-500 mb-10 leading-relaxed">
                 QuickTurn College of Engineering provides a fast-track, industry-aligned education ecosystem designed to turn students into high-impact engineers.
